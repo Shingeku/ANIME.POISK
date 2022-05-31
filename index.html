@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="ru">
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="anime.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    </head>
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="animate-charcter">Аниме.поиск</h3>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="row">
+                <form id="search_form" class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="введите название аниме" name="search" id="search" type="text" class="validate">
+                        <button/>🔎<label for="search">Поиск</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <img id="spinner" src="yin.gif" style="display: none;">
+        <div id="search-results" class="container">
+        </div>
+    </body>
+    <script src="anime.js"></script>
+</html>
